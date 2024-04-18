@@ -1,1 +1,1 @@
-#Repositório destinado ao estudo de assuntos relacionados ao Java a partir do curso [a Maratona Java Virado no Jiraya do canal DevDojo no Youtube](https://www.youtube.com/playlist?list=PL62G310vn6nFIsOCC0H-C2infYgwm8SWW).
+#Repositório destinado ao estudo de assuntos relacionados ao Java a partir do curso [Maratona Java Virado no Jiraya do canal DevDojo no Youtube](https://www.youtube.com/playlist?list=PL62G310vn6nFIsOCC0H-C2infYgwm8SWW).
