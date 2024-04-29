@@ -9,25 +9,19 @@ public class RuntimeExceptionTest4 {
       //throw new ArrayIndexOutOfBoundsException();
       //throw new IndexOutOfBoundsException();
       throw new RuntimeException();
-    } catch (ArrayIndexOutOfBoundsException e) {
-      System.err.println("Dentro do ArrayIndexOutOfBoundsException");
+    } catch (ArrayIndexOutOfBoundsException | IllegalArgumentException | ArithmeticException e) {
+      System.err.println("Dentro do ArrayIndexOutOfBoundsException | IllegalArgumentException | ArithmeticException");
     } catch (IndexOutOfBoundsException e) {
       System.err.println("Dentro do IndexOutOfBoundsException");
-    } catch (IllegalArgumentException e) {
-      System.err.println("Dentro do IllegalArgumentException");
-    } catch (ArithmeticException e) {
-      System.err.println("Dentro do ArithmeticException");
     } catch (RuntimeException e) {
       System.err.println("Dentro do RuntimeException");
     } 
 
     try {
       talvezLanceException();
-    } catch (FileNotFoundException e) {
+    } catch (SQLException | FileNotFoundException e) {
       e.printStackTrace();
-    } catch (SQLException e) {
-      e.printStackTrace();
-    }
+    } 
   }
 
   private static void talvezLanceException() throws SQLException, FileNotFoundException {
