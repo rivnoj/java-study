@@ -1,4 +1,4 @@
-package com.rivnoj.exception.exception.test;
+package com.rivnoj.javacore.exception.exception.test;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -6,8 +6,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.Reader;
 
-import com.rivnoj.exception.exception.dominio.Leitor1;
-import com.rivnoj.exception.exception.dominio.Leitor2;
+import com.rivnoj.javacore.exception.exception.dominio.Leitor1;
+import com.rivnoj.javacore.exception.exception.dominio.Leitor2;
 
 public class TryWithResourcesTest1 {
   public static void main(String[] args) {

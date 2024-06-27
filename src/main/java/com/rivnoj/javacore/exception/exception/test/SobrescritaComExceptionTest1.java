@@ -1,7 +1,7 @@
-package com.rivnoj.exception.exception.test;
+package com.rivnoj.javacore.exception.exception.test;
 
-import com.rivnoj.exception.exception.dominio.Funcionario;
-import com.rivnoj.exception.exception.dominio.LoginInvalidoException;
+import com.rivnoj.javacore.exception.exception.dominio.Funcionario;
+import com.rivnoj.javacore.exception.exception.dominio.LoginInvalidoException;
 
 public class SobrescritaComExceptionTest1 {
   public static void main(String[] args) {

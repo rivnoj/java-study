@@ -1,8 +1,8 @@
-package com.rivnoj.exception.exception.test;
+package com.rivnoj.javacore.exception.exception.test;
 
 import java.util.Scanner;
 
-import com.rivnoj.exception.exception.dominio.LoginInvalidoException;
+import com.rivnoj.javacore.exception.exception.dominio.LoginInvalidoException;
 
 public class LoginInvalidoExceptionTest1 {
   public static void main(String[] args) {

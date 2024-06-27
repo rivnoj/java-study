@@ -1,4 +1,4 @@
-package com.rivnoj.exception.runtime.test;
+package com.rivnoj.javacore.exception.runtime.test;
 
 public class RuntimeExceptionTest3 {
   public static void main(String[] args) {

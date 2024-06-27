@@ -1,4 +1,4 @@
-package com.rivnoj.exception.exception.dominio;
+package com.rivnoj.javacore.exception.exception.dominio;
 
 import java.io.FileNotFoundException;
 

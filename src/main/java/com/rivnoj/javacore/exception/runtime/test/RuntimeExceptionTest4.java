@@ -1,4 +1,4 @@
-package com.rivnoj.exception.runtime.test;
+package com.rivnoj.javacore.exception.runtime.test;
 
 import java.io.FileNotFoundException;
 import java.sql.SQLException;
