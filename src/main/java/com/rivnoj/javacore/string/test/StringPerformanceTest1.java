@@ -1,6 +1,6 @@
 package com.rivnoj.javacore.string.test;
 
-public class StringPerformanceTest {
+public class StringPerformanceTest1 {
   public static void main(String[] args) {
     long inicio = System.currentTimeMillis();
     concatString(100000);
@@ -19,6 +19,7 @@ public class StringPerformanceTest {
   }
 
   public static void concatString(int tamanho) {
+    @SuppressWarnings("unused")
     String texto = "";
 
     for (int i = 0; i < tamanho; i++) {
